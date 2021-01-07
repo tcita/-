@@ -8,9 +8,7 @@ import org.springframework.web.socket.config.annotation.EnableWebSocket;
 import org.springframework.web.socket.config.annotation.WebSocketConfigurer;
 import org.springframework.web.socket.config.annotation.WebSocketHandlerRegistry;
 
-/**
- * Created by wsk1103 on 2017/5/22.
- */
+
 @Configuration
 @EnableWebMvc
 @EnableWebSocket

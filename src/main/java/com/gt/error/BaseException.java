@@ -3,8 +3,7 @@ package com.gt.error;
 import lombok.Data;
 
 /**
- * @author wsk1103
- * @date 2019/5/8
+
  * @description 业务错误类
  */
 @Data

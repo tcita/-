@@ -5,19 +5,17 @@ import org.springframework.web.socket.CloseStatus;
 import org.springframework.web.socket.TextMessage;
 import org.springframework.web.socket.WebSocketSession;
 import org.springframework.web.socket.handler.TextWebSocketHandler;
-
 import java.io.IOException;
 import java.util.*;
 
-/**
- * Created by wsk1103 on 2017/5/22.
- */
+
 public class ChatWebSocketHandler extends TextWebSocketHandler {
 
     private final static List<WebSocketSession> sessions = Collections.synchronizedList(new ArrayList<WebSocketSession>());
 
     //接收文本消息，并发送出去
     @Override
+   // Session是指一个终端用户与交互系统进行通信的时间间隔，通常指从注册进入系统到注销退出系统之间所经过的时间
     protected void handleTextMessage(WebSocketSession session, TextMessage message) {
 //        System.out.println(session.getId()+":send....");
 //        chatTextMessageHandler(message.getPayload());
@@ -27,6 +25,7 @@ public class ChatWebSocketHandler extends TextWebSocketHandler {
             String m = message.getPayload();
             String[] wsk = m.split(",");
             String phone = wsk[0];
+            //解析字符串的十进制long类型
             long time = Long.parseLong(wsk[1]);
             String action = wsk[2];
             if (action.equals("start")){

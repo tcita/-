@@ -3,11 +3,6 @@ package com.gt.response;
 import com.gt.handle.GlobalExceptionHandler;
 import lombok.Data;
 
-/**
- * @author wsk1103
- * @date 2019/5/8
- * @description 描述
- */
 @Data
 public class BaseResponse {
     private int result;

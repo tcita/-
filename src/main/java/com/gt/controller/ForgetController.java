@@ -15,9 +15,6 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Created by wsk1103 on 2017/5/9.
- */
 @RestController
 public class ForgetController {
 

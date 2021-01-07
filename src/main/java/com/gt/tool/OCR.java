@@ -9,10 +9,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 
-*/
-/**
- * Created by WSK on 2017/1/6.
- *//*
+
 
 public class OCR {
     */

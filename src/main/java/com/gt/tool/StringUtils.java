@@ -12,9 +12,6 @@ import java.util.Base64.Encoder;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/**
- * Created by wsk1103 on 2017/5/14.
- */
 public class StringUtils {
 
     private static class LayHolder {
