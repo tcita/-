@@ -1,5 +1,1 @@
 # Created by .ignore support plugin (hsz.mobi)
-/target
-.idea
-*.iml
-/src/main/resources/jdbc.properties
