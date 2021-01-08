@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.gt.dao.AdminInformationMapper">
-    <resultMap id="BaseResultMap" type="com.gt.pojo.AdminInformation">
+<mapper namespace="com.gt.DAO.AdminInformationMapper">
+    <resultMap id="BaseResultMap" type="com.gt.POJO.AdminInformation">
         <id column="id" property="id" jdbcType="INTEGER"/>
         <result column="ano" property="ano" jdbcType="CHAR"/>
         <result column="password" property="password" jdbcType="CHAR"/>
@@ -33,11 +33,11 @@
         FROM<include refid="table"/>
         WHERE id = #{id,jdbcType=INTEGER}
     </delete>
-    <insert id="insert" parameterType="com.gt.pojo.AdminInformation">
+    <insert id="insert" parameterType="com.gt.POJO.AdminInformation">
         INSERT INTO<include refid="table"/> (id, ano, password, modified)
         VALUES (#{id,jdbcType=INTEGER}, #{ano,jdbcType=CHAR}, #{password,jdbcType=CHAR}, #{modified,jdbcType=TIMESTAMP})
     </insert>
-    <insert id="insertSelective" parameterType="com.gt.pojo.AdminInformation">
+    <insert id="insertSelective" parameterType="com.gt.POJO.AdminInformation">
         insert into<include refid="table"/>
         <trim prefix="(" suffix=")" suffixOverrides=",">
             <if test="id != null">
@@ -68,7 +68,7 @@
             </if>
         </trim>
     </insert>
-    <update id="updateByPrimaryKeySelective" parameterType="com.gt.pojo.AdminInformation">
+    <update id="updateByPrimaryKeySelective" parameterType="com.gt.POJO.AdminInformation">
         update<include refid="table"/>
         <set>
             <if test="ano != null">
@@ -83,7 +83,7 @@
         </set>
         where id = #{id,jdbcType=INTEGER}
     </update>
-    <update id="updateByPrimaryKey" parameterType="com.gt.pojo.AdminInformation">
+    <update id="updateByPrimaryKey" parameterType="com.gt.POJO.AdminInformation">
         UPDATE
         <include refid="table"/>
         SET ano      = #{ano,jdbcType=CHAR},
