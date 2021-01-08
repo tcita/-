@@ -1,4 +1,4 @@
-package com.gt.dao;
+package com.gt.DAO;
 //test
 import com.gt.pojo.AdminInformation;
 

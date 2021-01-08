@@ -1,6 +1,6 @@
 package com.gt.service.Impl;
 
-import com.gt.dao.AllKindsMapper;
+import com.gt.DAO.AllKindsMapper;
 import com.gt.pojo.AllKinds;
 import com.gt.service.AllKindsService;
 import org.springframework.stereotype.Service;

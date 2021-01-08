@@ -4,9 +4,7 @@ import com.gt.pojo.UserInformation;
 
 import java.util.List;
 
-/**
- * Created by wsk1103 on 2017/4/26.
- */
+
 public interface UserInformationService {
     int deleteByPrimaryKey(Integer id);
 

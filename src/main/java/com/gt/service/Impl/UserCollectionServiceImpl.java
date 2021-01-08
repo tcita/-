@@ -1,6 +1,6 @@
 package com.gt.service.Impl;
 
-import com.gt.dao.UserCollectionMapper;
+import com.gt.DAO.UserCollectionMapper;
 import com.gt.pojo.UserCollection;
 import com.gt.service.UserCollectionService;
 import org.springframework.stereotype.Service;

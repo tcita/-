@@ -1,6 +1,6 @@
 package com.gt.service.Impl;
 
-import com.gt.dao.ShopInformationMapper;
+import com.gt.DAO.ShopInformationMapper;
 import com.gt.pojo.ShopInformation;
 import com.gt.service.ShopInformationService;
 import org.springframework.stereotype.Service;

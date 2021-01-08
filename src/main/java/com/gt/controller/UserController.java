@@ -27,13 +27,10 @@ import java.util.*;
 /*import com.wsk.tool.OCR;
 import com.wsk.tool.Pornographic;*/
 
-/**
- * Created by wsk1103 on 2017/5/9.
- */
 @Controller
 @Slf4j
 public class UserController {
-
+   // 当我们在xml里面为类配置注入对象时，会发现xml文件会越来越臃肿，维护起来很麻烦。这时候我们可以使用注解这种机制来为类配置注入对象。
     @Resource
     private UserInformationService userInformationService;
     @Resource

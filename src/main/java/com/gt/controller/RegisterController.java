@@ -16,7 +16,6 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.Date;
 
 /**
- * Created by wsk1103 on 2017/5/9.
  * 注册中心
  */
 @Controller

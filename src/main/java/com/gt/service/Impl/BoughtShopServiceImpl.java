@@ -1,6 +1,6 @@
 package com.gt.service.Impl;
 
-import com.gt.dao.BoughtShopMapper;
+import com.gt.DAO.BoughtShopMapper;
 import com.gt.pojo.BoughtShop;
 import com.gt.service.BoughtShopService;
 import org.springframework.stereotype.Service;

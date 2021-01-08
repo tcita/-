@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.gt.dao.UserStateMapper" >
+<mapper namespace="com.gt.DAO.UserStateMapper" >
   <resultMap id="BaseResultMap" type="com.gt.pojo.UserState" >
     <id column="id" property="id" jdbcType="INTEGER" />
     <result column="credit" property="credit" jdbcType="INTEGER" />

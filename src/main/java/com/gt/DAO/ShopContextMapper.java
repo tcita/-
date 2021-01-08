@@ -1,4 +1,4 @@
-package com.gt.dao;
+package com.gt.DAO;
 
 import com.gt.pojo.ShopContext;
 import org.apache.ibatis.annotations.Select;

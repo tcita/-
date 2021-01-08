@@ -1,6 +1,6 @@
 package com.gt.service.Impl;
 
-import com.gt.dao.GoodsCarMapper;
+import com.gt.DAO.GoodsCarMapper;
 import com.gt.pojo.GoodsCar;
 import com.gt.service.GoodsCarService;
 import org.springframework.stereotype.Service;
