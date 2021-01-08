@@ -28,6 +28,7 @@ public class ChatWebSocketHandler extends TextWebSocketHandler {
             //解析字符串的十进制long类型
             long time = Long.parseLong(wsk[1]);
             String action = wsk[2];
+            //phone...?
             if (action.equals("start")){
                 session.sendMessage(new TextMessage("success"));
                 SaveSession.getInstance().save(phone,time);
