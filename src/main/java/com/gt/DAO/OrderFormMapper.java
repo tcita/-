@@ -1,6 +1,6 @@
 package com.gt.DAO;
 
-import com.gt.pojo.OrderForm;
+import com.gt.POJO.OrderForm;
 
 import java.util.List;
 

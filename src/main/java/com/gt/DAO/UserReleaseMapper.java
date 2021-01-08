@@ -1,6 +1,6 @@
 package com.gt.DAO;
 
-import com.gt.pojo.UserRelease;
+import com.gt.POJO.UserRelease;
 import org.apache.ibatis.annotations.Select;
 
 import java.util.List;

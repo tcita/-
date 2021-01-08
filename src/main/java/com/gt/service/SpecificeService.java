@@ -1,6 +1,6 @@
 package com.gt.service;
 
-import com.gt.pojo.Specific;
+import com.gt.POJO.Specific;
 
 import java.util.List;
 

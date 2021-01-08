@@ -1,6 +1,6 @@
 package com.gt.DAO;
 
-import com.gt.pojo.BoughtShop;
+import com.gt.POJO.BoughtShop;
 
 import java.util.List;
 

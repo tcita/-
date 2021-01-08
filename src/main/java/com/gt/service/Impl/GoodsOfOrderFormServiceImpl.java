@@ -1,7 +1,7 @@
 package com.gt.service.Impl;
 
 import com.gt.DAO.GoodsOfOrderFormMapper;
-import com.gt.pojo.GoodsOfOrderForm;
+import com.gt.POJO.GoodsOfOrderForm;
 import com.gt.service.GoodsOfOrderFormService;
 import org.springframework.stereotype.Service;
 

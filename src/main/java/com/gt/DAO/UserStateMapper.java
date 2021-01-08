@@ -1,6 +1,6 @@
 package com.gt.DAO;
 
-import com.gt.pojo.UserState;
+import com.gt.POJO.UserState;
 
 public interface UserStateMapper {
     int deleteByPrimaryKey(Integer id);

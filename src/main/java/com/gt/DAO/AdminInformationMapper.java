@@ -1,6 +1,6 @@
 package com.gt.DAO;
 //test
-import com.gt.pojo.AdminInformation;
+import com.gt.POJO.AdminInformation;
 
 public interface AdminInformationMapper {
     int deleteByPrimaryKey(Integer id);

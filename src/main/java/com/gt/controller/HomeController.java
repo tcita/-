@@ -1,7 +1,7 @@
 package com.gt.controller;
 
 import com.gt.bean.ShopInformationBean;
-import com.gt.pojo.*;
+import com.gt.POJO.*;
 import com.gt.service.*;
 import com.gt.tool.StringUtils;
 import org.springframework.stereotype.Controller;

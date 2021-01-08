@@ -1,6 +1,6 @@
 package com.gt.DAO;
 
-import com.gt.pojo.ShopCar;
+import com.gt.POJO.ShopCar;
 
 public interface ShopCarMapper {
     int deleteByPrimaryKey(Integer id);

@@ -1,7 +1,7 @@
 package com.gt.service.Impl;
 
 import com.gt.DAO.UserPasswordMapper;
-import com.gt.pojo.UserPassword;
+import com.gt.POJO.UserPassword;
 import com.gt.service.UserPasswordService;
 import org.springframework.stereotype.Service;
 

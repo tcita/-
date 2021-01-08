@@ -1,6 +1,6 @@
 package com.gt.service;
 
-import com.gt.pojo.ShopCar;
+import com.gt.POJO.ShopCar;
 
 /**
  * Created by wsk1103 on 2017/5/13.

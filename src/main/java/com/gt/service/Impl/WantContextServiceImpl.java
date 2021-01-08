@@ -1,7 +1,7 @@
 package com.gt.service.Impl;
 
 import com.gt.DAO.WantContextMapper;
-import com.gt.pojo.WantContext;
+import com.gt.POJO.WantContext;
 import com.gt.service.WantContextService;
 import org.springframework.stereotype.Service;
 

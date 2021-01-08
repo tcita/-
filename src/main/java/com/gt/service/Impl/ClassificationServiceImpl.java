@@ -1,7 +1,7 @@
 package com.gt.service.Impl;
 
 import com.gt.DAO.ClassificationMapper;
-import com.gt.pojo.Classification;
+import com.gt.POJO.Classification;
 import com.gt.service.ClassificationService;
 import org.springframework.stereotype.Service;
 

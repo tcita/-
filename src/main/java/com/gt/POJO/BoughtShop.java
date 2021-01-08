@@ -1,16 +1,20 @@
-package com.gt.pojo;
+package com.gt.POJO;
 
 import java.io.Serializable;
 import java.util.Date;
 
-public class UserPassword implements Serializable {
+public class BoughtShop implements Serializable {
     private Integer id;
 
     private Date modified;
 
-    private String password;
+    private Integer state;
 
     private Integer uid;
+
+    private Integer sid;
+
+    private Integer quantity;
 
     public Integer getId() {
         return id;
@@ -28,12 +32,12 @@ public class UserPassword implements Serializable {
         this.modified = modified == null ? null : (Date) modified.clone();
     }
 
-    public String getPassword() {
-        return password;
+    public Integer getState() {
+        return state;
     }
 
-    public void setPassword(String password) {
-        this.password = password == null ? null : password.trim();
+    public void setState(Integer state) {
+        this.state = state;
     }
 
     public Integer getUid() {
@@ -42,5 +46,21 @@ public class UserPassword implements Serializable {
 
     public void setUid(Integer uid) {
         this.uid = uid;
+    }
+
+    public Integer getSid() {
+        return sid;
+    }
+
+    public void setSid(Integer sid) {
+        this.sid = sid;
+    }
+
+    public Integer getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(Integer quantity) {
+        this.quantity = quantity;
     }
 }

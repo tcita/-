@@ -1,7 +1,7 @@
 package com.gt.controller;
 
-import com.gt.pojo.UserInformation;
-import com.gt.pojo.UserPassword;
+import com.gt.POJO.UserInformation;
+import com.gt.POJO.UserPassword;
 import com.gt.response.BaseResponse;
 import com.gt.service.UserInformationService;
 import com.gt.service.UserPasswordService;

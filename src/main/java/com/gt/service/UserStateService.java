@@ -1,6 +1,6 @@
 package com.gt.service;
 
-import com.gt.pojo.UserState;
+import com.gt.POJO.UserState;
 
 /**
  * Created by wsk1103 on 2017/5/13.

@@ -1,6 +1,6 @@
 package com.gt.DAO;
 
-import com.gt.pojo.UserPassword;
+import com.gt.POJO.UserPassword;
 
 public interface UserPasswordMapper {
     int deleteByPrimaryKey(Integer id);

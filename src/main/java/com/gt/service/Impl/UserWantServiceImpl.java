@@ -1,7 +1,7 @@
 package com.gt.service.Impl;
 
 import com.gt.DAO.UserWantMapper;
-import com.gt.pojo.UserWant;
+import com.gt.POJO.UserWant;
 import com.gt.service.UserWantService;
 import org.springframework.stereotype.Service;
 

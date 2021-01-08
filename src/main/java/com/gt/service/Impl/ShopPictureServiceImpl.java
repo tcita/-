@@ -1,7 +1,7 @@
 package com.gt.service.Impl;
 
 import com.gt.DAO.ShopPictureMapper;
-import com.gt.pojo.ShopPicture;
+import com.gt.POJO.ShopPicture;
 import com.gt.service.ShopPictureService;
 import org.springframework.stereotype.Service;
 

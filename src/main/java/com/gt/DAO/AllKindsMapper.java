@@ -1,6 +1,6 @@
 package com.gt.DAO;
 
-import com.gt.pojo.AllKinds;
+import com.gt.POJO.AllKinds;
 
 import java.util.List;
 

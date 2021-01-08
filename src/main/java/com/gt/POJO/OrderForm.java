@@ -1,20 +1,20 @@
-package com.gt.pojo;
+package com.gt.POJO;
 
 import java.io.Serializable;
 import java.util.Date;
 
-public class GoodsCar implements Serializable {
+public class OrderForm implements Serializable {
     private Integer id;
 
     private Date modified;
 
-    private Integer sid;
+    private Integer display;
 
     private Integer uid;
 
-    private Integer quantity;
+    private String address;
 
-    private Integer display;
+    private String context;
 
     public Integer getId() {
         return id;
@@ -32,22 +32,6 @@ public class GoodsCar implements Serializable {
         this.modified = modified == null ? null : (Date) modified.clone();
     }
 
-    public Integer getSid() {
-        return sid;
-    }
-
-    public void setSid(Integer sid) {
-        this.sid = sid;
-    }
-
-    public Integer getQuantity() {
-        return quantity;
-    }
-
-    public void setQuantity(Integer quantity) {
-        this.quantity = quantity;
-    }
-
     public Integer getDisplay() {
         return display;
     }
@@ -62,5 +46,21 @@ public class GoodsCar implements Serializable {
 
     public void setUid(Integer uid) {
         this.uid = uid;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address == null ? null : address.trim();
+    }
+
+    public String getContext() {
+        return context;
+    }
+
+    public void setContext(String context) {
+        this.context = context == null ? null : context.trim();
     }
 }

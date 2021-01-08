@@ -1,7 +1,7 @@
 package com.gt.service.Impl;
 
 import com.gt.DAO.ShopCarMapper;
-import com.gt.pojo.ShopCar;
+import com.gt.POJO.ShopCar;
 import com.gt.service.ShopCarService;
 import org.springframework.stereotype.Service;
 

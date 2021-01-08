@@ -1,7 +1,7 @@
 package com.gt.service.Impl;
 
 import com.gt.DAO.SpecificMapper;
-import com.gt.pojo.Specific;
+import com.gt.POJO.Specific;
 import com.gt.service.SpecificeService;
 import org.springframework.stereotype.Service;
 

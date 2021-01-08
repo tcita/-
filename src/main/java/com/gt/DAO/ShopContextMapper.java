@@ -1,6 +1,6 @@
 package com.gt.DAO;
 
-import com.gt.pojo.ShopContext;
+import com.gt.POJO.ShopContext;
 import org.apache.ibatis.annotations.Select;
 
 import java.util.List;

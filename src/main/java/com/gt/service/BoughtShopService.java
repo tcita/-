@@ -1,6 +1,6 @@
 package com.gt.service;
 
-import com.gt.pojo.BoughtShop;
+import com.gt.POJO.BoughtShop;
 
 import java.util.List;
 

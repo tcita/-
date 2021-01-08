@@ -1,6 +1,6 @@
 package com.gt.service;
 
-import com.gt.pojo.UserPassword;
+import com.gt.POJO.UserPassword;
 
 /**
  * Created by wsk1103 on 2017/4/27.

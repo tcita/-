@@ -1,6 +1,6 @@
 package com.gt.service;
 
-import com.gt.pojo.ShopInformation;
+import com.gt.POJO.ShopInformation;
 
 import java.util.List;
 import java.util.Map;

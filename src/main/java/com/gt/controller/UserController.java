@@ -3,7 +3,7 @@ package com.gt.controller;
 import com.gt.bean.GoodsCarBean;
 import com.gt.bean.ShopInformationBean;
 import com.gt.bean.UserWantBean;
-import com.gt.pojo.*;
+import com.gt.POJO.*;
 import com.gt.response.BaseResponse;
 import com.gt.service.*;
 import com.gt.token.TokenProccessor;
@@ -28,6 +28,10 @@ import java.util.*;
 import com.wsk.tool.Pornographic;*/
 
 @Controller
+/*@Controller用于标记一个类,使用它标记的类就是一个Spring MVC Controller对象,
+  即一个控制器类。Spring使用扫描机制査找应用程序中所有基于注解的控制器类。
+ 分发处理器会扫描使用了该注解的类的方法,并检测该方法是否使用了@RequestMapping注解,
+  而使用@RequestMapping注解的方法才是真正处理请求的处理器。*/
 @Slf4j
 public class UserController {
    // 当我们在xml里面为类配置注入对象时，会发现xml文件会越来越臃肿，维护起来很麻烦。这时候我们可以使用注解这种机制来为类配置注入对象。
@@ -63,8 +67,10 @@ public class UserController {
     private AllKindsService allKindsService;
     @Resource
     private ShopContextService shopContextService;
+    //页面请求
 
     //进入登录界面
+
     @RequestMapping(value = "/login.do", method = RequestMethod.GET)
     public String login(HttpServletRequest request, Model model) {
         String token = TokenProccessor.getInstance().makeToken();
@@ -117,10 +123,10 @@ public class UserController {
     }
 
     //用户注册
-//    @RequestMapping(value = "/registered", method = RequestMethod.GET)
-//    public String registered() {
-//        return "registered";
-//    }
+    @RequestMapping(value = "/registered", method = RequestMethod.GET)
+    public String registered() {
+        return "registered";
+    }
 
     //验证登录
     @RequestMapping(value = "/login.do", method = RequestMethod.POST)

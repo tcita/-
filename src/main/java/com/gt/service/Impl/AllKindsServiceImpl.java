@@ -1,16 +1,17 @@
 package com.gt.service.Impl;
 
 import com.gt.DAO.AllKindsMapper;
-import com.gt.pojo.AllKinds;
+import com.gt.POJO.AllKinds;
 import com.gt.service.AllKindsService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 import java.util.List;
 
-/**
- * Created by wsk1103 on 2017/5/13.
- */
+
+//在Java开发中，通常将后台分成几层，常见的是三层mvc：model、view、controller，模型视图控制层三层，
+// 而impl通常处于controller层的service下，用来存放接口的实现类，impl的全称为implement，表示实现的意思。
+
 @Service
 public class AllKindsServiceImpl implements AllKindsService {
     @Resource

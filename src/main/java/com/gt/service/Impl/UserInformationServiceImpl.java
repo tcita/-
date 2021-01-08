@@ -1,7 +1,7 @@
 package com.gt.service.Impl;
 
 import com.gt.DAO.UserInformationMapper;
-import com.gt.pojo.UserInformation;
+import com.gt.POJO.UserInformation;
 import com.gt.service.UserInformationService;
 import org.springframework.stereotype.Service;
 

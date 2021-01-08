@@ -1,7 +1,7 @@
 package com.gt.service.Impl;
 
 import com.gt.DAO.UserReleaseMapper;
-import com.gt.pojo.UserRelease;
+import com.gt.POJO.UserRelease;
 import com.gt.service.UserReleaseService;
 import org.springframework.stereotype.Service;
 

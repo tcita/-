@@ -1,16 +1,14 @@
-package com.gt.pojo;
+package com.gt.POJO;
 
 import java.io.Serializable;
 import java.util.Date;
 
-public class Classification implements Serializable {
+public class AllKinds implements Serializable {
     private Integer id;
 
     private String name;
 
     private Date modified;
-
-    private Integer aid;
 
     public Integer getId() {
         return id;
@@ -29,18 +27,10 @@ public class Classification implements Serializable {
     }
 
     public Date getModified() {
-        return modified == null ? null : (Date) modified.clone();
+        return (Date) modified.clone();
     }
 
     public void setModified(Date modified) {
-        this.modified = modified == null ? null : (Date) modified.clone();
-    }
-
-    public Integer getAid() {
-        return aid;
-    }
-
-    public void setAid(Integer aid) {
-        this.aid = aid;
+        this.modified = (Date) modified.clone();
     }
 }

@@ -1,6 +1,6 @@
 package com.gt.DAO;
 
-import com.gt.pojo.WantContext;
+import com.gt.POJO.WantContext;
 
 import java.util.List;
 

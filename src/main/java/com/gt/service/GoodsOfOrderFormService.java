@@ -1,6 +1,6 @@
 package com.gt.service;
 
-import com.gt.pojo.GoodsOfOrderForm;
+import com.gt.POJO.GoodsOfOrderForm;
 
 import java.util.List;
 

@@ -1,6 +1,6 @@
 package com.gt.DAO;
 
-import com.gt.pojo.Specific;
+import com.gt.POJO.Specific;
 
 import java.util.List;
 

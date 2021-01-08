@@ -1,6 +1,6 @@
 package com.gt.DAO;
 
-import com.gt.pojo.GoodsCar;
+import com.gt.POJO.GoodsCar;
 
 import java.util.List;
 

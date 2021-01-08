@@ -1,16 +1,16 @@
-package com.gt.pojo;
+package com.gt.POJO;
 
 import java.io.Serializable;
 import java.util.Date;
 
-public class Specific implements Serializable {
+public class UserPassword implements Serializable {
     private Integer id;
-
-    private String name;
 
     private Date modified;
 
-    private Integer cid;
+    private String password;
+
+    private Integer uid;
 
     public Integer getId() {
         return id;
@@ -18,14 +18,6 @@ public class Specific implements Serializable {
 
     public void setId(Integer id) {
         this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name == null ? null : name.trim();
     }
 
     public Date getModified() {
@@ -36,11 +28,19 @@ public class Specific implements Serializable {
         this.modified = modified == null ? null : (Date) modified.clone();
     }
 
-    public Integer getCid() {
-        return cid;
+    public String getPassword() {
+        return password;
     }
 
-    public void setCid(Integer cid) {
-        this.cid = cid;
+    public void setPassword(String password) {
+        this.password = password == null ? null : password.trim();
+    }
+
+    public Integer getUid() {
+        return uid;
+    }
+
+    public void setUid(Integer uid) {
+        this.uid = uid;
     }
 }

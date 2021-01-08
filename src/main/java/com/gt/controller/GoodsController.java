@@ -3,7 +3,7 @@ package com.gt.controller;
 import com.gt.bean.ShopContextBean;
 import com.gt.bean.ShopInformationBean;
 import com.gt.bean.UserWantBean;
-import com.gt.pojo.*;
+import com.gt.POJO.*;
 import com.gt.service.*;
 import com.gt.token.TokenProccessor;
 import com.gt.tool.StringUtils;

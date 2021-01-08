@@ -1,7 +1,7 @@
 package com.gt.service.Impl;
 
 import com.gt.DAO.UserStateMapper;
-import com.gt.pojo.UserState;
+import com.gt.POJO.UserState;
 import com.gt.service.UserStateService;
 import org.springframework.stereotype.Service;
 
