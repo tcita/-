@@ -69,6 +69,7 @@
           <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-jaspic-api:8.5.11" />
           <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.8.10" />
+          <element id="library" level="project" name="Maven: org.jetbrains:annotations:20.1.0" />
         </element>
       </element>
       <element id="directory" name="META-INF">
