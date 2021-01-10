@@ -1,19 +1,19 @@
 package com.gt.DAO;
 
-import com.gt.POJO.UserPassword;
+import com.gt.POJO.Userpassword;
 
 public interface UserPasswordMapper {
     int deleteByPrimaryKey(Integer id);
 
-    int insert(UserPassword record);
+    int insert(Userpassword record);
 
-    int insertSelective(UserPassword record);
+    int insertSelective(Userpassword record);
 
-    UserPassword selectByPrimaryKey(Integer id);
+    Userpassword selectByPrimaryKey(Integer id);
 
-    int updateByPrimaryKeySelective(UserPassword record);
+    int updateByPrimaryKeySelective(Userpassword record);
 
-    int updateByPrimaryKey(UserPassword record);
+    int updateByPrimaryKey(Userpassword record);
 
-    UserPassword selectByUid(Integer uid);
+    Userpassword selectByUid(Integer uid);
 }

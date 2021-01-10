@@ -1,15 +1,13 @@
 package com.gt.service.Impl;
 
 import com.gt.DAO.UserPasswordMapper;
-import com.gt.POJO.UserPassword;
+import com.gt.POJO.Userpassword;
 import com.gt.service.UserPasswordService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 
-/**
- * Created by wsk1103 on 2017/4/27.
- */
+
 @Service("userPasswordService")
 public class UserPasswordServiceImpl implements UserPasswordService{
     @Resource
@@ -22,32 +20,32 @@ public class UserPasswordServiceImpl implements UserPasswordService{
     }
 
     @Override
-    public int insert(UserPassword record) {
+    public int insert(Userpassword record) {
         return userPasswordMapper.insert(record);
     }
 
     @Override
-    public int insertSelective(UserPassword record) {
+    public int insertSelective(Userpassword record) {
         return userPasswordMapper.insertSelective(record);
     }
 
     @Override
-    public UserPassword selectByPrimaryKey(Integer id) {
+    public Userpassword selectByPrimaryKey(Integer id) {
         return userPasswordMapper.selectByPrimaryKey(id);
     }
 
     @Override
-    public int updateByPrimaryKeySelective(UserPassword record) {
+    public int updateByPrimaryKeySelective(Userpassword record) {
         return userPasswordMapper.updateByPrimaryKeySelective(record);
     }
 
     @Override
-    public int updateByPrimaryKey(UserPassword record) {
+    public int updateByPrimaryKey(Userpassword record) {
         return userPasswordMapper.updateByPrimaryKey(record);
     }
 
     @Override
-    public UserPassword selectByUid(Integer uid) {
+    public Userpassword selectByUid(Integer uid) {
         return this.userPasswordMapper.selectByUid(uid);
     }
 }

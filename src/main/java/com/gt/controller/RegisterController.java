@@ -1,7 +1,7 @@
 package com.gt.controller;
 
 import com.gt.POJO.UserInformation;
-import com.gt.POJO.UserPassword;
+import com.gt.POJO.Userpassword;
 import com.gt.response.BaseResponse;
 import com.gt.service.UserInformationService;
 import com.gt.service.UserPasswordService;
@@ -15,9 +15,7 @@ import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import java.util.Date;
 
-/**
- * 注册中心
- */
+
 @Controller
 public class RegisterController {
     @Resource
@@ -58,7 +56,7 @@ public class RegisterController {
         if (result == 1) {
             uid = userInformationService.selectIdByPhone(realPhone);
             String newPassword = StringUtils.getInstance().getMD5(password);
-            UserPassword userPassword = new UserPassword();
+            Userpassword userPassword = new Userpassword();
             userPassword.setModified(new Date());
             userPassword.setUid(uid);
             userPassword.setPassword(newPassword);

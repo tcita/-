@@ -7,11 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="GT" />
+        <module name="gt" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="GT" target="1.8" />
+      <module name="gt" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

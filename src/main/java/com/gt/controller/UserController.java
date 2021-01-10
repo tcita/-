@@ -105,7 +105,7 @@ public class UserController {
         userInformation.setCreatetime(new Date());
         if (userInformationService.insertSelective(userInformation) == 1) {
             int uid = userInformationService.selectIdByPhone(phone);
-            UserPassword userPassword = new UserPassword();
+            Userpassword userPassword = new Userpassword();
             userPassword.setModified(new Date());
             password = StringUtils.getInstance().getMD5(password);
             userPassword.setPassword(password);
