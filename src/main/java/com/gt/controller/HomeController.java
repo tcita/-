@@ -33,7 +33,7 @@ public class HomeController {
     private ShopContextService shopContextService;
 //RequestMapping注解的方法,"真正处理请求的处理器"
 
-    @RequestMapping(value = {"/", "/home.do"})
+    @RequestMapping(value = {"/", "/home.do"})//双URL拦截
     public String home(HttpServletRequest request, Model model) {
         UserInformation userInformation = (UserInformation) request.getSession().getAttribute("userInformation");
         // if user login,the session will have the "userInformation"

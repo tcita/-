@@ -1,1 +1,4 @@
 1.Spring Bean 解析注册:
+
+RequestMapping()映射:
+1.    /-/-/src/main/webapp/WEB-INF/web.xml中配置servlet,拦截到想要映射的url地址
