@@ -46,6 +46,8 @@ public class HomeController {
         //一般形式进入首页
         try {
             List<ShopInformation> shopInformations = selectTen(1, 5);
+           //selectTen: public interface ShopInformationMapper
+            //List<ShopInformation> selectTen(Map map);
             List<ShopInformationBean> list = new ArrayList<>();
             int counts = getShopCounts();
             model.addAttribute("shopInformationCounts", counts);

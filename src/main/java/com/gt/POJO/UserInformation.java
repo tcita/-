@@ -4,7 +4,12 @@ import java.io.Serializable;
 import java.util.Date;
 
 public class UserInformation implements Serializable {
-    private Integer id;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 565365234491015971L;
+
+	private Integer id;
 
     private Date modified;
 

@@ -71,6 +71,12 @@ public class UserController {
 
     //进入登录界面
 
+/*    1.注册RequestMappingHandlerMapping bean 。
+    2.实例化RequestMappingHandlerMapping bean。
+    3.获取RequestMappingHandlerMapping bean实例。
+    4.接收requst请求。
+    5.在RequestMappingHandlerMapping实例中查找对应的handler。
+    6.handler处理请求。*/
     @RequestMapping(value = "/login.do", method = RequestMethod.GET)
     public String login(HttpServletRequest request, Model model) {
         String token = TokenProccessor.getInstance().makeToken();
