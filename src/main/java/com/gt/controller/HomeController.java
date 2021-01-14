@@ -18,9 +18,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Created by wsk1103 on 2017/5/11.
- */
+
 @Controller
 public class HomeController {
     @Resource
@@ -33,7 +31,7 @@ public class HomeController {
     private AllKindsService allKindsService;
     @Resource
     private ShopContextService shopContextService;
-
+//RequestMapping注解的方法,"真正处理请求的处理器"
 
     @RequestMapping(value = {"/", "/home.do"})
     public String home(HttpServletRequest request, Model model) {

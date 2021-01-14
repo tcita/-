@@ -5,7 +5,12 @@ import java.math.BigDecimal;
 import java.util.Date;
 
 public class ShopInformation implements Serializable {
-    private Integer id;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	private Integer id;
 
     private Date modified;
 
